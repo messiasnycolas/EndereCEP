@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EndereCEP</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Hammersmith+One&display=swap"
+        rel="stylesheet">
+    <script src="./js/main.js"></script>
+</head>
+
+<body>
+    <header id="banner-box">
+        <h1>Endere<b>CEP</b></h1>
+    </header>
+
+    <div id="formul">
+        <form onSubmit="buscaEnd(event)">
+            <h1 class="ec-title">Encontre o endereço à partir do CEP</h1>
+            <input type="text" class="ec-input" id="cep" placeholder="Digite seu CEP" required>
+            <button class="ec-button" type="submit">Busca</button>
+        </form>
+        <table id="tabela">
+            <tr>
+                <th>Logradouro:</th>
+                <td id="lograd"></td>
+            </tr>
+            <tr>
+                <th>Bairro:</th>
+                <td id="bairro"></td>
+            </tr>
+            <tr>
+                <th>Cidade:</th>
+                <td id="cidade"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="formul2">
+        <form>
+            <h1 class="ec-title">Encontre o CEP à partir do endereço</h1>
+            <input type="text" class="ec-input" placeholder="Digite o endereço" required>
+            <button class="ec-button" type="submit">Busca</button>
+        </form>
+        <table id="tabela-ceps">
+        </table>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

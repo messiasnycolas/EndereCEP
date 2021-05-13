@@ -1,0 +1,219 @@
+body {
+    background-color: #202020;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+#banner-box {
+    height: 35vh;
+    background-image: url('../img/map2.png');
+    background-size:cover;
+    color:rgb(210, 255, 255);
+}
+
+b {
+    color:rgb(0, 180, 235);
+}
+
+#banner-box h1 {
+    text-align: center;
+    padding-top: 12vh;
+    font-size: 3em;
+}
+
+#formul, #formul2 {
+    width: 45%;
+    margin: -8vh auto;
+    padding: 0 0 3rem 0;
+    color: rgb(233, 233, 233);
+    background-color: #1d1c1c;
+    border: solid .1rem rgb(34, 25, 94);
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Farro', sans-serif;
+    font-size: .8em;
+}
+
+#formul2 {
+    margin: 10vh auto;
+    display: none;
+}
+
+.ec-title {
+    margin-top: 0;
+    padding: 1rem 5rem .2rem 5rem;
+    background-color: rgb(13, 2, 63);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.ec-input, .ec-button {
+    border: none;
+    font-size: large;
+    padding: .3rem 0;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.ec-button {
+    color: white;
+    background-color: rgb(34, 25, 94);
+    padding: .45rem 1rem;
+    opacity: 0.7;
+    transition: 0.2s;
+} .ec-button:hover { opacity: 1; }
+
+#tabela {
+    margin: 0 auto;
+    margin-top: 1rem;
+    font-size: 1.5em;
+}
+
+#tabela th, #tabela td {
+    border-bottom: solid .02rem rgb(68, 64, 64);
+}
+
+#tabela tr th {
+    display: table-cell;
+    text-align: right;
+}
+
+#lograd, #cidade, #bairro {
+    padding-left: 0.6rem;
+} 
+
+/* Tablets */
+
+@media(max-width: 1024px){
+
+    #banner-box {
+        height: 30vh;
+    }
+    
+    #banner-box h1 {
+        padding-top: 10vh;
+        font-size: 3em;
+    }
+    
+    #formul, #formul2 {
+        width: 60%;
+        margin: 4vh auto;
+        padding: 0 0 1.5rem 0;
+        border-radius: 16px;
+        font-size: .8em;
+    }
+    
+    .ec-title {
+        margin-top: 0;
+        padding: 1rem 2rem .7rem 2rem;
+        font-size: 1.5em;
+    }
+    
+    #formul2 {
+        margin: 3vh auto;
+    }
+    
+    .ec-input, .ec-button {
+        margin-top: 1.5vh;
+        padding: .5rem 0;
+        width: 50%
+    }
+    .ec-button {
+        padding: .5rem 1rem;
+    }
+    #tabela {
+        margin: 2rem auto;
+        font-size: 1.3em;
+        padding: 0 .5rem;
+    }
+}
+
+
+@media(max-width: 850){
+
+    #banner-box {
+        height: 30vh;
+    }
+
+    #banner-box h1 {
+        padding-top: 5vh;
+        font-size: 2em;
+    }
+
+    #formul, #formul2 {
+        width: 90%;
+        margin: 2.5vh auto;
+        padding: 0 0 1.5rem 0;
+        border-radius: 16px;
+        font-size: .8em;
+    }
+
+    .ec-title {
+        margin-top: 0;
+        padding: .7rem 2rem;
+        font-size: 1.5em;
+    }
+
+    #formul2 {
+        margin: 3vh auto;
+    }
+
+    .ec-input, .ec-button {
+        padding: .5rem 0;
+        width: 90%
+    }
+    .ec-button {
+        padding: .5rem 1rem;
+        margin-top: 2vh;
+    }
+    #tabela {
+        margin: 2rem auto;
+        font-size: 1.4em;
+        padding: 0 .5rem;
+    }
+}  
+
+/* Dispositivos Moveis */
+
+@media(max-width: 480px){
+
+    #banner-box {
+        height: 15vh;
+    }
+
+    #banner-box h1 {
+        padding-top: 5vh;
+        font-size: 2em;
+    }
+
+    #formul, #formul2 {
+        width: 90%;
+        margin: 2.5vh auto;
+        padding: 0 0 1.5rem 0;
+        border-radius: 16px;
+        font-size: .8em;
+    }
+
+    .ec-title {
+        margin-top: 0;
+        padding: .7rem 2rem;
+        font-size: 1.5em;
+    }
+
+    #formul2 {
+        margin: 3vh auto;
+    }
+
+    .ec-input, .ec-button {
+        padding: .5rem 0;
+        width: 90%
+    }
+    .ec-button {
+        padding: .5rem 1rem;
+        margin-top: 2vh;
+    }
+    #tabela {
+        margin: 2rem auto;
+        font-size: 1.4em;
+        padding: 0 .5rem;
+    }
+}
